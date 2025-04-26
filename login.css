@@ -1,0 +1,116 @@
+*{
+    margin-top: 0px;
+    padding:0px;
+    margin: auto;
+}
+
+body{
+
+    color:white;
+}
+.box1 i{
+    font-size: 1.25rem!important
+}
+.container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('BSE1.jpg');
+    background-size: cover;
+    filter: brightness(60%); /* Adjust the blur intensity */
+    z-index: 1;
+}
+.title{
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.title h1{
+    text-align:center;
+    padding-top: 110px;
+    width:400px;
+    border-bottom: 3px solid #ffffff;
+}
+.login{
+    background-color:#080809a6;
+    font-size: 25px;
+    margin-top: 50px;
+    width: 380px;
+    border: 1px solid #ffffff;
+}
+.login h2{
+    
+    padding:4px 0px;
+    padding-left: 38%;
+}
+
+.box{
+    margin-left: 12px;
+    margin-top:5px;
+    }
+.box input{
+    font-size:12px;
+    border-radius:10px;
+    padding:7px;
+    margin-left: 3px;
+    margin-top:8px ;
+    width:82%;
+}
+.box input:hover{
+    color:white;
+    background-color:black
+}
+
+
+.forgot-password {
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+.forgot-password a {
+    font-size: 18px;
+    color: #e3ce62;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.forgot-password a:hover {
+    color: #4CAF50;
+    text-decoration: underline;
+}
+
+.btn{
+    margin:5px;
+    margin-left:140px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.btn:hover {
+    background-color: #4CAF50;
+}
+.newuser{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.newuser a{
+    
+    color: white;
+    font-size:20px;
+    margin:10px 10px;
+}
+
+.newuser a:hover { 
+  color:rgb(153, 14, 227);
+  transition: 0.2s; 
+}

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('BSE1.jpg'); /* Keeping the same background */
+    background-size: cover;
+    filter: brightness(60%);
+    z-index: 1;
+}
+
+.title {
+
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+
+}
+
+.title h1 {
+    
+    text-align: center;
+    padding-top: 110px;
+    width: 400px;
+    border-bottom: 3px solid #ffffff;
+    margin: auto;
+}
+
+
+.title h2{
+    margin: 25px;
+}
+
+.sharesOutstanding{
+    margin: 2px 20px;
+    font-size: 25px;
+
+}
+.sharesOutstanding input{
+    margin: 2px 0px;
+    padding: 5px 10px;
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+.peRatio{
+    margin: 2px 20px;
+    font-size: 25px;
+}
+.peRatio input{
+    margin: 2px 0px;
+    padding: 5px 10px;
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+.stockPriceOutput{
+    padding: 10px 10px;
+    font-size:20px;
+    margin: 10px ;
+}
+.stockPriceOutput h3{
+    padding: 3px 10px;
+    font-size:20px;
+    margin: 10px;
+}
+.stockPriceOutput button{
+    padding: 8px 15px;
+    font: 12px bold;
+}

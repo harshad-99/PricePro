@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration-PricePro</title>
+        <link rel="stylesheet" href="registration.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <body>
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <script src="registration.js" type="module"></script>
+        <div class="container">
+            <div class="title">
+                <h1> <i class="bx bx-rocket bx-sm bx-tada"></i>Welcome to the PricePro<i class="bx bx-rocket bx-sm bx-tada"></i></h1>
+                <div class="form">
+                    <h2>Registration</h2>
+                    <form action=" " id="form">
+                        <div class="box">
+                            <h6>Name:</h6>
+                            <i class='bx bxs-user-circle bx-sm'></i>
+                            <input name="username" id="username" type="text" placeholder="Enter Your  Username" required>
+                        </div>
+                        <div class="box">
+                            <h6>Email:</h6>
+                            <i class='bx bxs-envelope bx-sm'></i>
+                            <input name="email" id="email" type="email" placeholder="Enter Your Email Address" required>
+                        </div>
+                        <div class="box">
+                            <h6>Contact:</h6>
+                            <i class='bx bxs-contact bx-sm'></i>
+                            <input name="contact" id="contact" type="number" placeholder="Enter Your Contact Number" required>
+                        </div>
+                        <div class="box">
+                            <h6>password:</h6>
+                            <i class='bx bxs-key bx-sm'></i>
+                            <input name="password" id="password" type="password" placeholder="Enter Your Password" required>
+                        </div>
+                        <div class="box">
+                            <h6>Confirm Password:</h6>
+                            <i class='bx bxs-key bx-sm'></i>
+                            <input name="cpassword" id="cpassword" type="password" placeholder="Confirm Your Password" required>
+                        </div>
+                        <button name="signup" id="signup" class="btn" type="submit">
+                            Sign Up
+                        </button>
+                    </form>
+                    <div class="newuser">
+                        <a href="login.html"> Already registered? Login here.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

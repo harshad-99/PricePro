@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding:0px;
+    margin: auto;
+}
+
+body{
+    color:white;
+
+}
+.container::before{
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    background-image: url(BSE1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+    
+}
+.title{
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.title h1{
+    text-align:center;
+    padding-top: 110px;
+    width:400px;
+    border-bottom: 3px solid #ffffff;
+}
+.form{
+    background-color:#080809a6;
+    font-size: 25px;
+    margin-top: 40px;
+    width: 440px;
+    border: 1px solid #ffffff;
+}
+.form h2{
+    padding:4px 0px;
+    padding-left: 30%;
+}
+.box{
+    margin-left: 25px;
+}
+.box input{
+    font-size:12px;
+    padding:7px;
+    width:84%;
+    border-radius: 12px;
+
+}
+.box input:hover{
+    color:white;
+    background-color:black
+}
+
+.btn{
+    margin-top: 15px;
+    margin-left:170px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.btn:hover {
+  background-color:#4CAF50; 
+  color:white;
+  transition: 0s; 
+}
+.newuser{
+    margin:5px 0px;
+    padding: auto;
+}
+.newuser a{
+    color: white;
+    font-size:18px;
+    margin-left: 100px;
+    color:white;
+}
+
+
+
+.newuser a:hover { 
+  color:rgb(153, 14, 227);
+  transition: 0.2s; 
+}

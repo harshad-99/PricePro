@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PricePro</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <div class="container">
+        <div class="title">
+            <h1><i class="bx bx-rocket bx-sm bx-tada"></i>Welcome to the PricePro<i class="bx bx-rocket bx-sm bx-tada"></i></h1>
+            <h2>Stock Price Predictor</h2>
+                <form id="uploadForm">
+                    <input type="file" id="fileInput" required>
+                    <button type="submit">Upload & Predict</button>
+                </form>
+
+                <div id="accuracy"></div>
+                <div id="predictedNetProfit"></div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Actual Profit</th>
+                            <th>Predicted Profit</th>
+                            <th>Difference</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultsTableBody"></tbody>
+                </table>
+                <div class="sharesOutstanding">
+                <p id="netProfitOutput"></p>
+                <label for="sharesOutstanding">Number of Shares Outstanding:</label>
+                <input type="number" id="sharesOutstanding" placeholder="Enter Shares Outstanding">
+                </div>
+                <div class="peRatio">
+                <label for="peRatio">PE Ratio:</label>
+                <input type="number" id="peRatio" placeholder="Enter PE Ratio">
+                </div>
+                <div class="stockPriceOutput">
+                    <button onclick="calculateStockPrice()">Calculate Price</button>
+            
+                    <h3>Calculated Stock Price:</h3>
+                    <p id="stockPriceOutput"></p>
+                </div> 
+                
+                <button id="signOutButton" style="position: absolute; top: 10px; right: 20px;">Sign Out</button>
+            </div>
+        </div>
+       
+    </div>
+
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
+</body>
+</html>

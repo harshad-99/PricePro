@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PricePro</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="price.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1><i class="bx bx-rocket bx-sm bx-tada"></i>Welcome to the PricePro<i class="bx bx-rocket bx-sm bx-tada"></i></h1>
+        </div>
+        <div class="sharesOutstanding">
+            <p id="netProfitOutput"></p>
+            <label for="sharesOutstanding">Number of Shares Outstanding:</label>
+            <input type="number" id="sharesOutstanding" placeholder="Enter Shares Outstanding">
+            </div>
+            <div class="peRatio">
+            <label for="peRatio">PE Ratio:</label>
+            <input type="number" id="peRatio" placeholder="Enter PE Ratio">
+            </div>
+            <div class="stockPriceOutput">
+                <button onclick="calculateStockPrice()">Calculate Price</button>
+        
+                <h3>Calculated Stock Price:</h3>
+                <p id="stockPriceOutput"></p>
+            </div> 
+    </div>     
+    
+</body>
+</html>
